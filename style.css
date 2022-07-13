@@ -1,0 +1,70 @@
+body{
+    font-family: sans-serif;
+    background-color: black;
+}
+.total{
+    width:1000px;
+    height: 600px;
+    margin: 20px auto;
+}
+.outbox{
+    width: 320px;
+    height: 520px;
+    background-color: beige;
+    margin: 0 auto;
+    top:120px;
+    position:relative;
+    border-radius: 5px;
+}
+.result{
+    width:320px;
+    height:140px;
+    text-align: right;
+}
+.history{
+    height:75px;
+    font-size: 25px;
+    padding-top: 10px;
+    margin: 0 15px;
+}
+.output{
+    height: 60px;
+    font-size: 30px;
+    margin: 10px 20px;
+}
+.keyboard{
+    float: left;
+    height: 380px;
+    margin-left: 10px;
+}
+.operator,.number{
+    width: 50px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+
+}
+button:nth-child(3){
+    background-color: darkgreen;
+}
+button:nth-child(4){
+    background-color: cyan;
+}
+button:nth-child(8){
+    background-color: darksalmon;
+}
+button:nth-child(12){
+    background-color: rgb(20, 149, 255);
+}
+button:nth-child(16){
+    background-color: khaki;
+}
+button:nth-child(20){
+    background-color: palegreen;
+}
+button:hover{
+    background-color: gray;
+}
